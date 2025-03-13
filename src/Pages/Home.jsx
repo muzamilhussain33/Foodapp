@@ -5,6 +5,7 @@ import Card from '../Components/Card'
 import { food_items } from '../food'
 import { dataContext } from '../context/UserContext'
 import Card2 from '../Components/Card2' 
+import Footer from '../Components/Footer'
 
 function Home() {
   let {Cate, setCate, input, showCart, setShowCart} = useContext(dataContext);
@@ -19,7 +20,7 @@ function Home() {
   } 
 
   return (
-    <div className='bg-slate-200 w-full min-h-screen'>
+    <div className='bg-slate-200 w-full flex flex-col items-center justify-between min-h-screen'>
       {/*.............Nav bar...............*/}
       <Nav/>
       {input === ''?<div className='w-[100%] flex flex-wrap justify-center items-center gap-5 '>
@@ -49,7 +50,7 @@ function Home() {
         <Card2/>
       </div>
 
-
+        <Footer/>
     </div>
   )
 }
