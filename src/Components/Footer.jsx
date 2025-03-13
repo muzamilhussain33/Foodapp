@@ -14,9 +14,9 @@ function Footer() {
       
       {/*........Search bar........*/}
       <div className='bg-white flex items-center justify-center flex-wrap h-[60px] w-[100%]  gap-5 p-5 rounded-md shadow-md' >
-      <FaInstagram className='w-[30px] h-[30px] text-red-500'/>
-      <CiFacebook className='w-[30px] h-[30px] text-red-500'/>
-      <CiLinkedin className='w-[30px] h-[30px] text-red-500'/>
+      <a href="https://www.instagram.com/muzamilcreates/profilecard/?igsh=bWc4eWltc3E5aXpi"><FaInstagram className='w-[30px] h-[30px] text-red-500'/></a>
+      <a href="https://www.facebook.com/share/1AAsz9LTyQ/"><CiFacebook className='w-[30px] h-[30px] text-red-500'/></a>
+      <a href="https://www.linkedin.com/in/muzamil-hussain-100323292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><CiLinkedin className='w-[30px] h-[30px] text-red-500'/></a>
       <FaXTwitter className='w-[30px] h-[30px] text-red-500'/>
       <p className='text-red-500'>muzamilhussain369@gmail.com</p>
       </div>
