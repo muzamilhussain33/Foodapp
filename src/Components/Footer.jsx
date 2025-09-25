@@ -18,7 +18,7 @@ function Footer() {
       <a href="https://www.facebook.com/share/1AAsz9LTyQ/"><CiFacebook className='w-[30px] h-[30px] text-red-500'/></a>
       <a href="https://www.linkedin.com/in/muzamil-hussain-100323292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><CiLinkedin className='w-[30px] h-[30px] text-red-500'/></a>
       <FaXTwitter className='w-[30px] h-[30px] text-red-500'/>
-      <p className='text-red-500'>muzamilhussain369@gmail.com</p>
+      <p className='text-red-500'>Muzamil Hussain muzamilhussain369@gmail.com</p>
       </div>
         
       
