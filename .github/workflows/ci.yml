@@ -1,0 +1,42 @@
+name: FoodApp CI
+
+# Run workflow on push and pull request to main branch
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout code
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Step 4: Run tests
+      - name: Run tests
+        run: npm test
+
+      # Step 5: Build the project
+      - name: Build project
+        run: npm run build
+
+      # Step 6: Archive the build output (optional)
+      - name: Archive build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: foodapp-dist
+          path: dist
