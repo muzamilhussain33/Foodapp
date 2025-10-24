@@ -51,6 +51,7 @@ export const food_items = [
     {"id": 24, "food_name": "Hawaiian Pizza", "food_category": "pizza", "food_type": "non_veg", "food_quantity": 1, "food_image": image24, "price": 799},
     {"id": 25, "food_name": "Pasta Primavera", "food_category": "pasta", "food_type": "veg", "food_quantity": 1, "food_image": image25, "price": 899},
     {"id": 26, "food_name": "Pasta ", "food_category": "pizza", "food_type": "veg", "food_quantity": 1, "food_image": image25, "price": 899},
-    {"id": 27, "food_name": "Pasta Veg", "food_category": "soups", "food_type": "veg", "food_quantity": 1, "food_image": image25, "price": 899}
+    {"id": 27, "food_name": "Pasta Veg", "food_category": "soups", "food_type": "veg", "food_quantity": 1, "food_image": image25, "price": 899},
+    {"id": 23, "food_name": "Simple Rice", "food_category": "main_course", "food_type": "non_veg", "food_quantity": 1, "food_image": image23, "price": 599},
 ];
 
